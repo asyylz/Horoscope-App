@@ -8,11 +8,13 @@ $color3: #1a605c;
 body {
   font-family: "Almendra", sans-serif;
   background-color: $color1;
+ 
 
   .App {
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
+  
     .row {
       align-items: center;
       height: 100vh;
@@ -41,12 +43,7 @@ body {
         &:before {
           transform: translateZ(30px);
         }
-        &:after {
-          background-image: url(/src/assets/cardbackground.webp);
-          background-size: cover;
-          background-position: center center;
-          background-repeat: no-repeat;
-        }
+
         h1 {
           transform: translateZ(100px);
         }
@@ -83,17 +80,7 @@ body {
         transform-style: preserve-3d;
         transform: translateZ(0px);
       }
-      &:after {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        z-index: 2;
-        transition: ease all 1.3s;
-        background: rgba(0, 0, 0, 0.4);
-      }
+
       h1 {
         font-weight: 600;
         position: absolute;
@@ -122,11 +109,11 @@ body {
     }
     .card-back {
       position: absolute;
-	
+
       top: 0;
       height: 100%;
       width: 100%;
-     
+
       transform-style: preserve-3d;
       transition: ease all $transition-time;
       transform: translateZ(-1px) scale(0.8);
@@ -139,16 +126,16 @@ body {
         transition: ease transform $transition-time, ease background 0.5s;
         transform: translateZ(-1px) rotatey(-180deg);
         color: transparent;
-		background-color: transparent;
+        background-color: transparent;
         font-weight: 200;
         font-size: 1.3em;
         padding: 14px 32px;
         outline: none;
         text-decoration: none;
         &:hover {
-          background-size: cover;
-		  background-color: $color3;
-		  color: $color2;
+          font-size: 1.5rem;
+          background-color: $color3;
+          color: $color2;
         }
       }
     }
