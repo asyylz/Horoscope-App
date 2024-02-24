@@ -1,6 +1,6 @@
 # Horoscope Web App
-
-Welcome to the Horoscope Web App! This application provides daily horoscope readings along with tarot readings and articles related to astrology. Users can navigate through different sections to explore various content.
+# Description
+Welcome to the Horoscope Web App! The Horoscope Application is a web-based platform that provides daily horoscope readings, tarot card readings, articles, and contact information for users interested in astrology and related topics. It fetches data dynamically and presents it in an interactive and visually appealing manner.
 
 # Outcome
 ![horoscope](https://github.com/asyylz/Horoscope-App/blob/431a7ee7115163767e1ca1d670fd222299875e1c/public/outcome.gif)
@@ -11,6 +11,11 @@ Welcome to the Horoscope Web App! This application provides daily horoscope read
 - **Tarot Readings**: Explore tarot card readings for insights.
 - **Articles**: Read articles on astrology and related topics.
 - **Contact**: Connect with us for inquiries and feedback.
+
+## Responsive Layout
+The application features a responsive layout optimized for various screen sizes, including desktops, tablets, and mobile devices.
+Media queries and flexbox are utilized to ensure content adaptability across different viewport dimensions.
+Specific adjustments are made for screen sizes ranging from extra-small to extra-large to enhance user experience on all devices.
 
 ## Technologies Used
 
