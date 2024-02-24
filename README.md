@@ -2,6 +2,9 @@
 
 Welcome to the Horoscope Web App! This application provides daily horoscope readings along with tarot readings and articles related to astrology. Users can navigate through different sections to explore various content.
 
+# Outcome
+![horoscope](https://github.com/asyylz/Horoscope-App/blob/431a7ee7115163767e1ca1d670fd222299875e1c/public/outcome.gif)
+
 ## Features
 
 - **Daily Horoscope**: Get your daily horoscope predictions.
